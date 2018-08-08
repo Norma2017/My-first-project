@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="com.example.android.p_1veterinariasopedro.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/pb"
+            android:paddingLeft="@dimen/pl"
+            android:paddingRight="@dimen/pr"
+            android:paddingTop="@dimen/pt">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/lh"
+            android:src="@drawable/androidvet1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ml"
+            android:text="@string/sempre_a_pensar_na_sa_de_e_bem_estar_dos_nossos_animais_de_companhia"
+            android:textColor="@android:color/background_dark"
+            android:textSize="@dimen/ts" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/lh1"
+            android:layout_marginBottom="@dimen/mb10"
+            android:layout_marginRight="@dimen/mr8"
+            android:layout_marginLeft="@dimen/ml8"
+            android:src="@drawable/androidvet2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="@dimen/pl8"
+                android:paddingBottom="@dimen/pb8"
+                android:paddingTop="@dimen/pt8"
+                android:paddingRight="@dimen/pr8"
+                android:layout_marginBottom="@dimen/mb10"
+                android:layout_marginLeft="@dimen/ml8"
+                android:layout_marginRight="@dimen/mr8"
+                android:background="#FFA726"
+                android:text="@string/hor_rio_segunda_a_sexta_10h_20h_s_bado_9h_17h_domingos_e_feriados_encerrados"
+                android:textAllCaps="true"
+                android:textColor="@android:color/background_dark"
+                android:textSize="@dimen/ts16" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/androidphone"
+                    android:layout_width="@dimen/lw50"
+                    android:layout_height="@dimen/lh50"
+                    android:layout_marginLeft="@dimen/ml4"
+                    android:layout_marginTop="@dimen/mt10"
+                    android:src="@drawable/androidcallorange" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/ml10"
+                    android:layout_marginTop="@dimen/mt15"
+                    android:layout_weight="1"
+                    android:text="@string/marca_o_de_consultas_295_628_982"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="@dimen/ts15" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/androidflag"
+                    android:layout_width="@dimen/lw50"
+                    android:layout_height="@dimen/lh50"
+                    android:layout_marginLeft="@dimen/ml4"
+                    android:layout_marginTop="@dimen/mt10"
+                    android:src="@drawable/androidcallemergencia" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/ml10"
+                    android:layout_marginTop="@dimen/mt15"
+                    android:layout_weight="1"
+                    android:text="@string/servi_o_de_urg_ncia_963_237_544"
+                    android:textAllCaps="true"
+                    android:textColor="?attr/editTextColor"
+                    android:textSize="@dimen/ts15" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/androidubicacion"
+                    android:layout_width="@dimen/lw50"
+                    android:layout_height="@dimen/lh50"
+                    android:layout_marginLeft="@dimen/ml1"
+                    android:layout_marginTop="@dimen/mt15"
+                    android:src="@drawable/androidubica" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/ml10"
+                    android:layout_marginTop="@dimen/mt15"
+                    android:layout_weight="1"
+                    android:text="@string/morada_caminho_de_baixo_no_4_s_o_pedro_angra_do_heroismo"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="@dimen/ts15" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

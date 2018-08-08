@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="pb">8dp</dimen>
+    <dimen name="pl">8dp</dimen>
+    <dimen name="pr">8dp</dimen>
+    <dimen name="pt">8dp</dimen>
+    <dimen name="lh">120dp</dimen>
+    <dimen name="lh1">180dp</dimen>
+    <dimen name="ml">8dp</dimen>
+    <dimen name="ts">18sp</dimen>
+    <dimen name="ts15">15sp</dimen>
+    <dimen name="ts16">16sp</dimen>
+    <dimen name="mb10">10dp</dimen>
+    <dimen name="mt10">10dp</dimen>
+    <dimen name="lw50">50dp</dimen>
+    <dimen name="lh50">50dp</dimen>
+    <dimen name="mt15">15dp</dimen>
+    <dimen name="ml10">10dp</dimen>
+    <dimen name="ml12">12dp</dimen>
+    <dimen name="pl8">8dp</dimen>
+    <dimen name="pb8">8dp</dimen>
+    <dimen name="pt8">8dp</dimen>
+    <dimen name="pr8">8dp</dimen>
+    <dimen name="ml8">8dp</dimen>
+    <dimen name="ml4">4dp</dimen>
+    <dimen name="ml1">1dp</dimen>
+    <dimen name="mr8">8dp</dimen>
+
+</resources>
